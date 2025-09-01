@@ -1,6 +1,6 @@
+import "reflect-metadata"
 import app from "./src/app.js";
 import { PORT } from "./src/config/envs.js";
-
 
 
 
