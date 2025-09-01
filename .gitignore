@@ -1,3 +1,42 @@
+# Node.js
 node_modules/
+.pnpm-store/
+package-lock.json
+pnpm-lock.yaml
+
+# Compiled output
+dist/
+build/
+
+# TypeScript
+*.tsbuildinfo
+
+# Environment variables
 .env
-*-lock.*
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# TypeORM specific (si tienes migraciones generadas)
+migrations/*.js
+migrations/*.js.map
+
+# Optional: cobertura de tests
+coverage/
